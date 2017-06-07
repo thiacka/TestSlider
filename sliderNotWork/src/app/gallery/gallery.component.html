@@ -1,0 +1,37 @@
+<div class="page-wrapper">
+ 
+<header></header>
+<div class="main-wrapper">
+  <div class="main">
+    <div class="main-inner">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-8 col-lg-9">
+                 <div class="listing-detail-section" id="listing-detail-section-description" data-title="Description">
+                    <div class="gallery">
+                      <div *ngFor="let photo of files" class="gallery-item" [ngStyle]="{'background-image': 'url( '+photo+')'}">
+                      </div>
+                      
+                      <!--div class="gallery-item" style="background-image: url(assets/img/event/concert.jpg);">
+                      </div>
+                      <div class="gallery-item" style="background-image: url(assets/img/event/conference.jpg);">
+                      </div-->
+                    </div>
+                    
+                    <div class="row">
+                      
+                      <div class="col-lg-24">
+                        <h2>Description</h2>
+                        <p>
+                          ici la Description
+                          </p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+       </div>
+     </div>
+    </div>
+ </div>
+</div>
